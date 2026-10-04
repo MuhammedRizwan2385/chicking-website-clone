@@ -19,6 +19,15 @@ A responsive, front-end clone of the **ChicKing India** fast-food restaurant web
 ### Homepage
 ![Homepage](images/screenshots/s1.png)
 
+### Our Story
+![Our Story](images/screenshots/s2.png)
+
+### Highlights
+![Highlights](images/screenshots/s3.png)
+
+### Menu
+![Menu](images/screenshots/s4.png)
+
 
 ---
 
