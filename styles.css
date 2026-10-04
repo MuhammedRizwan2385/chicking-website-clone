@@ -1,0 +1,207 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.nav-link {
+    color: black;
+    font-weight: bold;
+    position: relative;
+}
+
+.nav-link:hover {
+    color: red !important;
+    
+}
+.nav-item:hover{
+    text-decoration: underline;
+    color:#a91917;
+}
+.nav-link .btn{
+    color:white;
+    font-weight: bold;
+    position: relative;
+}
+.nav-link .btn:hover{
+    background-color: #f2f2f2;
+    color:#a91917;
+    border-bottom: #a91917 solid medium ;
+
+}
+/* banner video */
+.hero{
+    height:100vh;
+     display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    text-align: center;
+
+
+}
+.hero-video{
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    z-index: -1; /*controls the stacking order of an element. A negative z-index generally puts the element behind elements with normal stacking levels.*/
+    object-fit: cover;
+}
+.hero-content h1{
+    margin-top: 50px;
+    padding-top: 50px;
+    margin-bottom: 20px;
+    font-size: 4rem;
+}
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+}
+@media (max-width: 992px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+.hero-buttons .btn1:hover{
+background-color: #f2f2f2;
+color:#a91917;
+border-bottom: #a91917 solid medium ;
+scale:1.1;
+}
+.hero-buttons .btn2:hover{
+background-color: #f2f2f2;
+color:#a91917;
+border-bottom: #a91917 solid medium ;
+scale:1.1;
+}
+
+/* our story img */
+.img-story:hover{
+    transition: 0.8s ease ;
+    scale:1.1;
+    
+}
+.btn-story:hover{
+background-color: #f2f2f2;
+color:#a91917;
+border-bottom: #a91917 solid medium ;
+scale:1.1;
+}
+
+/* menu */
+.menu-card {
+    position: relative;
+    width: 100%;
+    height: 480px;
+    overflow: hidden;
+    .menu-overlay h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.menu-overlay p {
+    font-size: 1.1rem;
+    margin: 0;
+    line-height: 1.5;
+}
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+.menu-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.menu-card-wide{
+    
+    height:auto;
+}
+.menu-overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    padding: 30px 25px 20px;
+
+    color: white;
+
+    background: linear-gradient(
+        transparent,
+        rgba(0, 0, 0, 0.9)
+    );
+}
+.menu-overlay h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.menu-overlay p {
+    font-size: 1.1rem;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.menu-card:hover{
+    transition:0.3s ease;
+    transform:translatey(-10px);
+}
+
+.btn-menu:hover{
+     transition:0.5s ease;
+    transform:translatey(-3px);
+}
+/* menu */
+
+/* download */
+
+.ctc-img:hover{
+     transition:0.5s ease;
+    transform:translatey(-3px);
+}
+
+.blog-date{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #a91917;
+    color:#f2f2f2 ;
+
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 60px;
+    z-index: 2;
+}
+.card:hover{
+   transition:0.3s ease;
+    transform:translatey(-10px); 
+}
+/* blogs card image css codes */
+.card-img-top{
+    width:100%;
+    height:220px;
+    object-fit: cover;   /* it makes all three images occupy the same 220px × card-width area without distorting them.*/
+}
+
+/* footer */
+.text-reset:hover {
+    color: red !important;
+    
+    
+}
+.foot-text:hover{
+color: red !important;
+
+}
